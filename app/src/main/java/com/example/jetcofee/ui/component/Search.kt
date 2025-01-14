@@ -18,6 +18,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.jetcofee.R
+import com.example.jetcofee.ui.theme.JetCofeeTheme
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -53,5 +54,5 @@ fun Search(modifier: Modifier = Modifier){
 @Preview(showBackground = true)
 @Composable
 fun SearchPreview() {
-        Search()
+    Search()
 }
